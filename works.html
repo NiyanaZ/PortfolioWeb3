@@ -1,0 +1,486 @@
+<!-- Video References:
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_modal&stacked=h
+https://www.youtube.com/watch?v=KEYz7HArF6g -->
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title> Portfolio </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylework.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+<style type="text/css">
+
+.img-responsive{
+  margin: 8px;
+  transition: 0.5s ease;
+}
+
+.img-responsive:hover{
+ 
+  box-shadow: 4px 5px 5px 4px #000000;
+  border-radius: 10px;
+}
+
+.heading{
+   color: #ffffff;
+   text-align: center;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 35px;
+   
+}
+
+
+.btn-info{
+  transition: 0.5s ease-in-out;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+</style>
+
+
+<body>
+    <div class="container">
+<div class="container">
+<br>
+<h2 class="heading">Portfolio Gallery</h2><br>
+<div class="row">
+     <div class="col-md-4">
+<a href=""  data-toggle="modal" data-target="#myModal">
+  <div>
+      <img src="astro.png" class="img-responsive img-rounded" width="100%" height="100%">
+<div class="carousel-caption"><button class="btn btn-info">More</button></div>
+</div>
+
+</a>  
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title text-center">Astronauts(Blender)</h2>
+  </div>
+  <div class="modal-body">
+  <img src="astro.png" width="100%" height="100%">
+  <a href=""></a>
+  <p class="text-danger"> </p>
+  <p> </p>
+  </div>
+  <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+       </div>
+      </div>
+         
+    </div>
+  </div>
+
+
+    </div>
+
+
+    <div class="col-md-4">
+      <a href=""  data-toggle="modal" data-target="#myModal2">
+    <div>
+            <img src="fnd.jpg" class="img-responsive img-rounded" width="100%" height="100%">
+ <div class="carousel-caption"><button class="btn btn-info">More</button></div>  
+  </div>
+      </a>  
+      
+    <!-- Modal -->
+   <div class="modal fade" id="myModal2" role="dialog">
+  <div class="modal-dialog">
+              
+  <!-- Modal content-->
+   <div class="modal-content">
+     <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h2 class="modal-title text-center">Flap n' Dodge (Unity)</h2>
+        </div>
+        <div class="modal-body">
+        <img src="fnd.jpg" width="100%" height="100%" src="Flap N' Dodge.app/embed/">
+        <embed src="Flap N' Dodge.app" type="application"> </a>
+        <p> Introduction into game development. </p>
+        </div>
+        <div class="modal-footer">
+   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+       </div>
+    </div>
+               
+  </div>
+  </div>
+      
+      
+ </div>
+
+          
+
+ <div class="col-md-4">
+   <a href=""  data-toggle="modal" data-target="#myModal3">
+<div>
+    <img src="CoronaV3Dmod.png" class="img-responsive img-rounded" width="100%" height="100%">
+    <div class="carousel-caption"><button class="btn btn-info">More</button></div> 
+</div>
+  </a>  
+            
+  <!-- Modal -->
+  <div class="modal fade" id="myModal3" role="dialog">
+ <div class="modal-dialog">
+                    
+  <!-- Modal content-->
+  <div class="modal-content">
+   <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+   <h2 class="modal-title text-center">Who's Next? (Blender)</h2>
+ </div>
+  <div class="modal-body">
+ <img src="CoronaV3Dmod.png" width="100%" height="100%">
+  <p class="text-danger"> Medium: Digital Art Dimensions: 1000px by 750px Software: Blender x cgTrader</p>
+ <p> I created this peice in 2020 when I felt like no matter how hard people tried to protect themselves and their loved ones from this virus that COVID had the final say. This virus took alot of lives including one of my family members. No one was exempt from its selection during this time. This is natural selection. </p>
+ </div>
+  <div class="modal-footer">
+  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+ </div>
+  </div>
+                     
+ </div>
+  </div>
+            
+            
+  </div>
+
+              
+
+
+  <div class="col-md-4">
+  <a href=""  data-toggle="modal" data-target="#myModal4">
+  <div>
+ <img src="dreamworld.png" class="img-responsive img-rounded" width="100%" height="100%">
+ <div class="carousel-caption"><button class="btn btn-info">More</button></div> 
+ </div>
+  </a>  
+                  
+  <!-- Modal -->
+ <div class="modal fade" id="myModal4" role="dialog">
+  <div class="modal-dialog">
+                          
+  <!-- Modal content-->
+  <div class="modal-content">
+   <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+  <h2 class="modal-title text-center">3js Collaboration (Group Project)</h2>
+ </div>
+  <div class="modal-body">
+  <img src="dreamworld.png" width="100%" height="100%">
+  <a class="nav-link" href="Photography.html"> </a>
+ <p class="text-danger"> </p>
+ <p> </p>
+ </div>
+ <div class="modal-footer">
+  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+ </div>
+  </div>
+                           
+ </div>
+ </div>
+                  
+                  
+ </div>
+
+                      
+
+
+  <div class="col-md-4">
+  <a href=""  data-toggle="modal" data-target="#myModal5">
+  <div>
+  <img src="avatarFinal.png" class="img-responsive img-rounded" width="100%" height="100%">
+  <div class="carousel-caption"><button class="btn btn-info">More</button></div> 
+  </div>
+ </a>  
+                        
+    <!-- Modal -->
+    <div class="modal fade" id="myModal5" role="dialog">
+  <div class="modal-dialog">
+                                
+  <!-- Modal content-->
+   <div class="modal-content">
+   <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal">&times;</button>
+ <h2 class="modal-title text-center">Avatar (P5.js)</h2>
+ </div>
+  <div class="modal-body">
+    <img src="avatarFinal.png" width="100%" height="100%">
+    <a href="https://editor.p5js.org/NiyanaZ-art/sketches/rC46xTbjl">Interaction Link</a>
+    <p class="text-danger"> Medium: Digital Art Dimensions: 490px by 490px Software: p5js</p>
+ <p> Although my eyes are
+usually fixed on the bright side of life, my thoughts are constantly conflicted by 
+my past experiences which hinders me from embracing the optimism that I share with others. I find it easy to share my 
+optimistic perspective on life with others but when it comes to applying that same perspective to my personal life, seeing a bright 
+future becomes a clouded view. The reoccurring clouds infront of me are called angst. 
+Sometimes I can suppress angst and prevent them from dominating my thoughts. Other times, angst wins and that is when their acid
+rain will fall right where I stand. So as I am in the depths of its leakage my next steps are taken cautiously because of my fear
+of falling. When my feet become wet I tend to stand still just to make sure that I will not fall. Although I am protecting myself from
+self inflicted harm I am also doing myself a disservice by not leaping out of faith. Being stagnant gives your life no purpose. This
+is why I must move even if my feet are wet. It is easy to move when the sun is shining and the ground is dry because you are able to see that the path is safe. However, it is when your path is uncertain and you feel uncomfortable that you should go because that is when you grow and progress. When you fall you get up with more knowledge than before the mistake. So even if the sun has not dried up your path just yet, know that if you keep running toward the light that one day angst will disappear. 
+I wish that I’d take my own advice.</p>
+  </div>
+ <div class="modal-footer">
+ <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+ </div>
+ </div>
+                                 
+  </div>
+ </div>
+                        
+                        
+  </div>
+
+                            
+
+
+ <div class="col-md-4">
+  <a href=""  data-toggle="modal" data-target="#myModal6">
+<div>
+ <img src="mworld.png" class="img-responsive img-rounded" width="100%" height="100%">
+ <div class="carousel-caption"><button class="btn btn-info">More</button></div> 
+ </div>
+  </a>  
+                              
+ <!-- Modal -->
+ <div class="modal fade" id="myModal6" role="dialog">
+  <div class="modal-dialog">
+                                      
+ <!-- Modal content-->
+ <div class="modal-content">
+  <div class="modal-header">
+ <button type="button" class="close" data-dismiss="modal">&times;</button>
+  <h2 class="modal-title text-center">Low Poly World (Blender)</h2>
+  </div>
+  <div class="modal-body">
+  <img src="mworld.png" width="100%" height="100%">
+  <p class="text-danger"> </p>
+  <p> </p>
+  </div>
+ <div class="modal-footer">
+   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+ </div>
+ </div>
+                                       
+ </div>
+  </div>
+                              
+                              
+  </div>
+
+                                  
+
+
+  <div class="col-md-4">
+  <a href=""  data-toggle="modal" data-target="#myModal7">
+  <div>
+  <img src="Drink.png" class="img-responsive img-rounded" width="100%" height="100%">
+  <div class="carousel-caption"><button class="btn btn-info">More</button></div> 
+  </div>
+  </a>  
+                                    
+  <!-- Modal -->
+  <div class="modal fade" id="myModal7" role="dialog">
+  <div class="modal-dialog">
+                                            
+  <!-- Modal content-->
+  <div class="modal-content">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal">&times;</button>
+ <h2 class="modal-title text-center">Stylized Cup (Blender)</h2>
+ </div>
+  <div class="modal-body">
+ <img src="Drink.png" width="100%" height="100%">
+  <p class="text-danger"> </p>
+  <p> </p>
+  </div>
+ <div class="modal-footer">
+ <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+ </div>
+ </div>
+                                             
+ </div>
+ </div>
+                                    
+                                    
+  </div>
+               
+        
+        <div class="col-md-4">
+          <a href=""  data-toggle="modal" data-target="#myModal7">
+          <div>
+          <img src="Characterovercolorfinal2.png" class="img-responsive img-rounded" width="100%" height="100%">
+          <div class="carousel-caption"><button class="btn btn-info">More</button></div> 
+          </div>
+          </a>  
+                                            
+          <!-- Modal -->
+          <div class="modal fade" id="myModal7" role="dialog">
+          <div class="modal-dialog">
+                                                    
+          <!-- Modal content-->
+          <div class="modal-content">
+         <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h2 class="modal-title text-center">Character Over Color</h2>
+         </div>
+          <div class="modal-body">
+         <img src="love.png" width="100%" height="100%">
+          <p class="text-danger"> Medium: Digital Art Dimensions: 1006px by 1250px Software: Audacity</p>
+          <p> Martin Luther King Jr is one of my role models. When I think about him the phrase "character over color" comes to mind. Throughout his lifetime he taught everyone who would listen that 
+            if they must judge that they should judge people for the content of their character not for the complexion of their skin. This illustration is a tribute to his teachings and something that we should execute today and forever.</p>
+          </div>
+         <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+         </div>
+         </div>
+                                                     
+         </div>
+         </div>
+                                            
+                                            
+          </div>
+
+
+ <div class="col-md-4">
+  <a href=""  data-toggle="modal" data-target="#myModal8">
+  <div>
+  <img src="Robb.png" class="img-responsive img-rounded" width="100%" height="100%">
+  <div class="carousel-caption"><button class="btn btn-info">More</button></div> 
+  </div>
+  </a>  
+                                          
+  <!-- Modal -->
+ <div class="modal fade" id="myModal8" role="dialog">
+  <div class="modal-dialog">
+                                                  
+  <!-- Modal content-->
+ <div class="modal-content">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal">&times;</button>
+  <h2 class="modal-title text-center"> 21 Angels </h2>
+  </div>
+  <div class="modal-body">
+  <img src="Robb.png" width="100%" height="100%">
+  <p class="text-danger">Medium: Digital Art Randomizer - Tribute to the Robb Elementary School Shooting 05.24.2022 Dimensions: 460px by 460px</p>
+  <li class="nav-item">
+  <a class="nav-link" href="https://niyanaz.github.io/randomizerbfa/"> Link </a>
+</li>
+  <p> On May 24th 2022 we lost 21 souls too soon to gun violence at Robb Elementary school in Uvalde, Texas. I created this for us to remember the lives lost.</p>
+  </div>
+  <div class="modal-footer">
+ <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+ </div>
+  </div>
+                                                   
+  </div>
+  </div>
+                                          
+                                          
+  </div>
+
+                                              
+
+
+ <div class="col-md-4">
+  <a href=""  data-toggle="modal" data-target="#myModal9">
+<div>
+  <img src="speech.png" class="img-responsive img-rounded" width="100%" height="100%">
+  <div class="carousel-caption"><button class="btn btn-info">More</button></div> 
+</div>
+  </a>  
+                                                
+  <!-- Modal -->
+  <div class="modal fade" id="myModal9" role="dialog">
+   <div class="modal-dialog">
+                                                        
+ <!-- Modal content-->
+  <div class="modal-content">
+  <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal">&times;</button>
+  <h2 class="modal-title text-center">To the Class of 2020</h2>
+  </div>
+  <div class="modal-body">
+    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/769589206?h=9ee9d47a64&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Courage.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+  <p class="text-danger"> Medium: Digital Art/Video Dimensions: 16:9 3:27s Software: Adobe Audition - Installation </p>
+  <p> This is an installation video that consists of copyright free film alongside audio and visuals that I created. This audio is from my High School graduation speech that I gave during a Global Pandemic. </p>
+  </div>
+  <div class="modal-footer">
+  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+ </div>
+  </div>
+                                                         
+  </div>
+ </div>
+                                                
+                                                
+  </div>
+
+ 
+  <div class="col-md-4">
+    <a href=""  data-toggle="modal" data-target="#myModal10">
+    <div>
+    <img src="python.png" class="img-responsive img-rounded" width="100%" height="100%">
+    <div class="carousel-caption"><button class="btn btn-info">More</button></div> 
+    </div>
+    </a>  
+                                                        
+    <!-- Modal -->
+    <div class="modal fade" id="myModal10" role="dialog">
+    <div class="modal-dialog">
+                                                                
+    <!-- Modal content-->
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h2 class="modal-title text-center">Introduction to Python</h2>
+    </div>
+   <div class="modal-body">
+    <img src="python.png" width="100%" height="100%">
+    <p class="text-danger"></p>
+   <p> </p>
+   </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+   </div>
+    </div>
+                                                                 
+    </div>
+    </div>
+                                                        
+                                                       
+       </div>                                                   
+
+
+
+                                   
+
+
+                                                       
+
+
+  </div>
+  </div> 
+</body>
+
+</html>
